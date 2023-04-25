@@ -11,7 +11,7 @@ const io = socketio(server);
 
 
 // set static folder
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'docs')));
 
 const botName = 'ChatHub Bot'
 // Run when a client connects
